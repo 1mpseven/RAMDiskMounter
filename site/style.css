@@ -1,0 +1,93 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+html{
+	scroll-behavior: smooth;
+}
+
+h1{
+	font-family: Impact;
+	font-size: 36pt;
+	margin-top: 26pt;
+	margin-bottom: 14pt;
+}
+
+h5{
+	font-family: UbuntuMono;
+	font-size: 11pt;
+	text-align: center;
+}
+
+p{
+	font-family: UbuntuMono;
+	font-size: 14pt;
+	text-indent: 1.5em; /* Отступ первой строки */
+    text-align: justify; /* Выравнивание по ширине */
+    line-height: 1.5;
+}
+
+code{
+	font-family: UbuntuMono;
+	font-size: 14pt;
+	color: lime;
+	background-color: black;
+}
+
+@font-face {
+	font-family: UbuntuMono; /* Гарнитура шрифта */
+	src: url(UbuntuMono-Regular.ttf); /* Путь к файлу со шрифтом */
+}
+
+#title_pic{
+	position: relative;
+	left: 0;
+	width: 100%;
+	height: 320px;
+	margin: 0;
+	background: url(title_pic.gif);
+	background-attachment: fixed;
+	/*background-position: right bottom;*/
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#text_content{
+	margin-left: 20%;
+	margin-right: 20%; 
+}
+
+#footer{
+	background: black;
+	width: 100%;
+	height: 14pt;
+	color: white;
+	margin-top: 26pt; 
+}
+
+#menu{
+	position: fixed;
+	background: rgba(0,0,0,.7);
+	width: 100%;
+	text-align: center;
+	top: 0;
+	padding-top: 20pt;
+	padding-bottom: 20pt; 
+}
+
+#menu > a{
+	color: white;
+	font-family: UbuntuMono;
+	font-size: 20pt;
+	margin-left: 15px;
+	margin-right: 15px;
+	text-decoration: none;
+}
+
+#menu > a:hover{
+/*	background: rgba(255,255,255,.5);
+	color: black;*/
+	/*text-shadow: 1px 1px 2px black, 0 0 1em white;*/
+	text-shadow: 0 0 1.5em white;
+}

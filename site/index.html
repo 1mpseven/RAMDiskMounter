@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>RAMDisk Mounter</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div id="title_pic"></div>
+	<div id="menu">
+		<a href="#faster"><b>Быстродействие</b></a>
+		<a href="#security"><b>Безопасность</b></a>
+		<a href="#requence"><b>Требования</b></a>
+		<a href="#dwn"><b>Скачать</b></a>
+		<a href="#about_dev"><b>Подробности</b></a>
+		<a href="#donut"><b>Пожертвовать</b></a>
+	</div>
+	<div id="text_content">
+	<h1><a name="faster"></a>Быстродействие и надежность</h1>
+	<p>Скорость чтения/записи RAM гораздо выше обычного жесткого диска. Для этого типа памяти совершенно не принципиально количество циклов перезаписи информации по сравнению с SSD накопителями, что делает виртуальный RAM диск идеальным решением для задач, где необходима максимальная скорость доступа к данным без ущерба для жесткого диска.</p>
+
+	<h5><img src="res.png"></h5>
+	<!-- <h5><i>График результатов сравнительного тестирования скорости чтения/записи магнитного, SSD и RAM дисков.</i></h5> -->
+
+	<h1><a name="security"></a>Безопасность</h1>
+	<p>RAM диск как и информация на нем, живут до первой перезагрузки, выключения, извлечения, поэтому не забудьте скопировать нужную информацию перед завершением работы. Для удаления диска достаточно просто извлечь его, и никто и никогда не получит доступ к вашим секретам.</p>
+	<!-- <h1>Результаты опытов</h1>
+	<p>Для теста на чтение/запись воспользуемся утилитой dd.</p>
+	<p>Начнем со скорости записи системного SSD диска OCZ Vortex3:</p>
+
+	<code>
+		$ sync; dd if=/dev/zero of=tempfile bs=1m count=1024; sync<br>
+		1024+0 records in<br>
+		1024+0 records out<br>
+		1073741824 bytes transferred in 2.599582 secs (413044036 bytes/sec)<br> 		
+	</code>
+
+
+	<p>Результат: 413 Мб/cек. Теперь проверим скорость чтения:</p>
+	
+	<code>
+		$ dd if=tempfile of=/dev/null bs=1m count=1024<br>
+		1024+0 records in<br>
+		1024+0 records out<br>
+		1073741824 bytes transferred in 2.288831 secs (469122371 bytes/sec)
+	</code>
+
+	<p>Она составила 469 Мб/сек. Теперь проверим скорость записи обычного жесткого диска объемом 250Gb:</p>
+	
+	<code>
+		$ sync; dd if=/dev/zero of=tempfile bs=1m count=1024; sync<br>
+		1024+0 records in<br>
+		1024+0 records out<br>
+		1073741824 bytes transferred in 10.268309 secs (104568516 bytes/sec)
+	</code>
+	
+	<p>104 Мб/сек. Проверим скорость чтения:</p>
+	
+	<code>
+		$ dd if=tempfile of=/dev/null bs=1m count=1024<br>
+		1024+0 records in<br>
+		1024+0 records out<br>
+		1073741824 bytes transferred in 6.926679 secs (155015389 bytes/sec)<br>
+		155 Мб/сек.
+	</code>
+
+	<p>Теперь мы подошли к самому главному – тесту скорости виртуального жесткого диска, расположенного в оперативной памяти DDR3:</p>
+
+	<code>
+		$ sync; dd if=/dev/zero of=tempfile bs=1m count=1024; sync<br>
+		1024+0 records in<br>
+		1024+0 records out<br>
+		1073741824 bytes transferred in 0.995787 secs (1078284740 bytes/sec)<br>
+		Наш «жесткий диск» пишет данный почти со скоростью 1,1 Гб/сек! Посмотрим на скорость чтения:<br>
+		$ dd if=tempfile of=/dev/null bs=1m count=10241024+0 records in<br>
+		1024+0 records out<br>
+		1073741824 bytes transferred in 0.915073 secs (1173394822 bytes/sec)
+	</code>
+
+	<p>В тесте на чтение оперативная память показала 1,17 Гб/сек! Визуализируем полученные данные:</p>
+
+	<img src="res.png">
+	<h5><i>График результатов сравнительного тестирования скорости чтения/записи магнитного, SSD и RAM дисков.</i></h5>
+
+	<p>Отличный результат, который наглядно показывает преимущество скорости RAM диска над твердотельными (SSD) и магнитными накопителями (HDD).</p> -->
+
+	<h1><a name="requence"></a>Системные характеристики</h1>
+	<p>Версия для MacOS:</p>
+	<p>ОС: MacOS 10+</p>
+	<p>ОЗУ: от 1 GB</p>
+
+	<h1><a name="dwn"></a>Скачать</h1>
+
+	<h1><a name="about_dev"></a>О разработке</h1>
+	<p>GIThub: <a href="https://github.com/1mpseven/RAMDiskMounter">https://github.com/1mpseven/RAMDiskMounter</a></p>
+	<p>VK: <a href="https://vk.com/ramdiskmounter">https://vk.com/ramdiskmounter</a></p>
+	<p>Сайт: <a href="https://1mpseven.github.io/RAMDiskMounter/">https://1mpseven.github.io/RAMDiskMounter/</a></p>
+
+	<h1><a name="donut"></a>Пожертвовать</h1>
+	<p>В Группе VK: <a href="https://vk.com/ramdiskmounter">https://vk.com/ramdiskmounter</a></p>
+	</div>
+	<div id='footer'></div>
+</body>
+</html>
