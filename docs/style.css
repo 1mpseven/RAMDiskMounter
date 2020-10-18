@@ -100,7 +100,6 @@ h5 > a > img {
 h5 > a > img:hover {
 	width: 240px;
 	height: 240px;
-	transition: all .5s;
 }
 
 h5 > a > img:active {
