@@ -23,9 +23,9 @@ h5{
 p{
 	font-family: UbuntuMono;
 	font-size: 14pt;
-	text-indent: 1.5em; /* Отступ первой строки */
-    text-align: justify; /* Выравнивание по ширине */
-    line-height: 1.5;
+	text-indent: 1.5em; 
+    	text-align: justify; 
+    	line-height: 1.5;
 }
 
 code{
@@ -36,8 +36,8 @@ code{
 }
 
 @font-face {
-	font-family: UbuntuMono; /* Гарнитура шрифта */
-	src: url(UbuntuMono-Regular.ttf); /* Путь к файлу со шрифтом */
+	font-family: UbuntuMono; 
+	src: url(UbuntuMono-Regular.ttf); 
 }
 
 #title_pic{
@@ -48,9 +48,8 @@ code{
 	margin: 0;
 	background: url(title_pic.gif);
 	background-attachment: fixed;
-	/*background-position: right bottom;*/
-    background-repeat: no-repeat;
-    background-size: cover;
+    	background-repeat: no-repeat;
+    	background-size: cover;
 }
 
 #text_content{
@@ -86,9 +85,6 @@ code{
 }
 
 #menu > a:hover{
-/*	background: rgba(255,255,255,.5);
-	color: black;*/
-	/*text-shadow: 1px 1px 2px black, 0 0 1em white;*/
 	text-shadow: 0 0 1.5em white;
 }
 
