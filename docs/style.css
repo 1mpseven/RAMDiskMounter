@@ -91,3 +91,23 @@ code{
 	/*text-shadow: 1px 1px 2px black, 0 0 1em white;*/
 	text-shadow: 0 0 1.5em white;
 }
+
+h5 > a > img {
+	width: 200px;
+	height: 200px;
+	margin: 26pt;
+	border-radius: 50%;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	transition: all .5s;
+}
+
+h5 > a > img:hover {
+	width: 240px;
+	height: 240px;
+	transition: all .5s;
+}
+
+h5 > a > img:active {
+	width: 180px;
+	height: 180px;
+}
