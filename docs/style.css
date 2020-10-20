@@ -106,3 +106,7 @@ h5 > a > img:active {
 	width: 180px;
 	height: 180px;
 }
+h5 > img {
+	width: 500px;
+	height: auto;
+}
