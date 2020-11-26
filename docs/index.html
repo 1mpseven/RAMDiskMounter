@@ -1,110 +1,70 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<meta charset="utf-8">
-	<title>RAMDisk Mounter</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
-<body>
-	<div id="title_pic"></div>
-	<div id="menu">
-		<a href="#faster"><b>Быстродействие</b></a>
-		<a href="#security"><b>Безопасность</b></a>
-		<a href="#requence"><b>Требования</b></a>
-		<a href="#screens"><b>Скриншоты</b></a>
-		<a href="#dwn"><b>Скачать</b></a>
-		<a href="#about_dev"><b>Подробности</b></a>
-		<a href="#donut"><b>Пожертвовать</b></a>
+  <head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="chrome=1,IE=edge" />
+	<title>RAM Disk Mounter</title>
+	<style>
+		html {
+			height:100%;
+		}
+		body {
+			background-color:#FFF;
+			margin:0;
+			height:100%;
+		}
+	</style>
+	<!-- copy these lines to your document head: -->
+
+	<meta name="viewport" content="user-scalable=yes, width=1000" />
+
+	<!-- end copy -->
+  </head>
+  <body>
+	<!-- copy these lines to your document: -->
+
+	<div id="index_hype_container" class="HYPE_document" style="margin:auto;position:relative;width:1000px;height:1403px;overflow:hidden;">
+		<script type="text/javascript" charset="utf-8" src="index.hyperesources/index_hype_generated_script.js?56458"></script>
 	</div>
-	<div id="text_content">
-	<h1><a name="faster"></a>Быстродействие и надежность</h1>
-	<p>Скорость чтения/записи RAM гораздо выше обычного жесткого диска. Для этого типа памяти совершенно не принципиально количество циклов перезаписи информации по сравнению с SSD накопителями, что делает виртуальный RAM диск идеальным решением для задач, где необходима максимальная скорость доступа к данным без ущерба для жесткого диска.</p>
 
-	<h5><img src="res.png"></h5>
-	<!-- <h5><i>График результатов сравнительного тестирования скорости чтения/записи магнитного, SSD и RAM дисков.</i></h5> -->
-
-	<h1><a name="security"></a>Безопасность</h1>
-	<p>RAM диск как и информация на нем, живут до первой перезагрузки, выключения, извлечения, поэтому не забудьте скопировать нужную информацию перед завершением работы. Для удаления диска достаточно просто извлечь его, и никто и никогда не получит доступ к вашим секретам.</p>
-	<!-- <h1>Результаты опытов</h1>
-	<p>Для теста на чтение/запись воспользуемся утилитой dd.</p>
-	<p>Начнем со скорости записи системного SSD диска OCZ Vortex3:</p>
-
-	<code>
-		$ sync; dd if=/dev/zero of=tempfile bs=1m count=1024; sync<br>
-		1024+0 records in<br>
-		1024+0 records out<br>
-		1073741824 bytes transferred in 2.599582 secs (413044036 bytes/sec)<br> 		
-	</code>
-
-
-	<p>Результат: 413 Мб/cек. Теперь проверим скорость чтения:</p>
+	<!-- end copy -->
 	
-	<code>
-		$ dd if=tempfile of=/dev/null bs=1m count=1024<br>
-		1024+0 records in<br>
-		1024+0 records out<br>
-		1073741824 bytes transferred in 2.288831 secs (469122371 bytes/sec)
-	</code>
 
-	<p>Она составила 469 Мб/сек. Теперь проверим скорость записи обычного жесткого диска объемом 250Gb:</p>
-	
-	<code>
-		$ sync; dd if=/dev/zero of=tempfile bs=1m count=1024; sync<br>
-		1024+0 records in<br>
-		1024+0 records out<br>
-		1073741824 bytes transferred in 10.268309 secs (104568516 bytes/sec)
-	</code>
-	
-	<p>104 Мб/сек. Проверим скорость чтения:</p>
-	
-	<code>
-		$ dd if=tempfile of=/dev/null bs=1m count=1024<br>
-		1024+0 records in<br>
-		1024+0 records out<br>
-		1073741824 bytes transferred in 6.926679 secs (155015389 bytes/sec)<br>
-		155 Мб/сек.
-	</code>
 
-	<p>Теперь мы подошли к самому главному – тесту скорости виртуального жесткого диска, расположенного в оперативной памяти DDR3:</p>
+	<!-- text content for search engines: -->
 
-	<code>
-		$ sync; dd if=/dev/zero of=tempfile bs=1m count=1024; sync<br>
-		1024+0 records in<br>
-		1024+0 records out<br>
-		1073741824 bytes transferred in 0.995787 secs (1078284740 bytes/sec)<br>
-		Наш «жесткий диск» пишет данный почти со скоростью 1,1 Гб/сек! Посмотрим на скорость чтения:<br>
-		$ dd if=tempfile of=/dev/null bs=1m count=10241024+0 records in<br>
-		1024+0 records out<br>
-		1073741824 bytes transferred in 0.915073 secs (1173394822 bytes/sec)
-	</code>
+	<div style="display:none" aria-hidden=true>
 
-	<p>В тесте на чтение оперативная память показала 1,17 Гб/сек! Визуализируем полученные данные:</p>
+		<div>Screenshots</div>
+		<div></div>
+		<div>News</div>
+		<div>Download</div>
+		<div></div>
+		<div>RAM Disk Mounter</div>
+		<div>About</div>
+		<div>Скачать</div>
+		<div>System requirements
 
-	<img src="res.png">
-	<h5><i>График результатов сравнительного тестирования скорости чтения/записи магнитного, SSD и RAM дисков.</i></h5>
 
-	<p>Отличный результат, который наглядно показывает преимущество скорости RAM диска над твердотельными (SSD) и магнитными накопителями (HDD).</p> -->
+</div>
+		<div>Linux version:
+OS: Linux kernel from 2.4
+RAM: from 1 GB
+</div>
+		<div>MacOS version
+OS: from macOS 10.6+ (x64 version of operation system)
+RAM: from 1 GB
+</div>
+		<div>Version: 201016</div>
+		<div>About develop
+GIThub: https://github.com/1mpseven/RAMDiskMounterVK: https://vk.com/ramdiskmounterSite: https://1mpseven.github.io/RAMDiskMounter/
 
-	<h1><a name="requence"></a>Системные требования</h1>
-	<p>Версия для MacOS:</p>
-	<p>ОС: MacOS 10+</p>
-	<p>ОЗУ: от 1 GB</p>
+Donut
+In VK group: https://vk.com/ramdiskmounter</div>
 
-	<h1><a name="screens"></a>Скриншоты</h1>
-	<h5><img src="scr1.png"></h5>
-	<h5><img src="scr2.png"></h5>
-
-	<h1><a name="dwn"></a>Скачать</h1>
-	<!-- <h5><a href="https://bit.ly/2T7P1Xc"><img src="macos.png"></a><a href="javascript:alert('Скоро')"><img src="linux.png"></a></h5>  -->
-	<h5><a href="https://vk.cc/aB9mYH"><img src="macos.png"></a><a href="https://vk.cc/aBffxo"><img src="linux.png"></a></h5> 
-	<h1><a name="about_dev"></a>О разработке</h1>
-	<p>GIThub: <a href="https://github.com/1mpseven/RAMDiskMounter">https://github.com/1mpseven/RAMDiskMounter</a></p>
-	<p>VK: <a href="https://vk.com/ramdiskmounter">https://vk.com/ramdiskmounter</a></p>
-	<p>Сайт: <a href="https://1mpseven.github.io/RAMDiskMounter/">https://1mpseven.github.io/RAMDiskMounter/</a></p>
-
-	<h1><a name="donut"></a>Пожертвовать</h1>
-	<p>В Группе VK: <a href="https://vk.com/ramdiskmounter">https://vk.com/ramdiskmounter</a></p>
 	</div>
-	<div id='footer'></div>
-</body>
+
+	<!-- end text content: -->
+
+  </body>
 </html>
