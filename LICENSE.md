@@ -6,13 +6,13 @@ This document "End User License Agreement" is an offer by Vladimir Andreevich Su
 
 1.1. The words and phrases used in this License Agreement have the following meanings, unless otherwise expressly defined hereinafter:
 
-a) License (Agreement) - the text of this document with all appendices, changes and additions to it, posted as part of the distribution of the Product and on the Site of the Copyright Holder on the Internet at: 1mpseven.github.io/RAMDiskMounter/LICENSE.md.
+a) License (Agreement) - the text of this document with all appendices, changes and additions to it, posted as part of the distribution of the Product and on the Site of the Copyright Holder on the Internet at: [https://github.com/1mpseven/RAMDiskMounter/blob/gh-pages/LICENSE.md](https://github.com/1mpseven/RAMDiskMounter/blob/gh-pages/LICENSE.md).
 
 b) User - a person who has entered into this Agreement with the Copyright Holder in his or someone else's interest in accordance with the requirements of the current legislation and this Agreement.
 
 c) Product - the program "RAMDiskMounter" owned by the Copyright Holder, a copy of which is legally held by the End User.
 
-d) Product Website - a resource on the Internet located at: 1mpseven.github.io/RAMDiskMounter/
+d) Product Website - a resource on the Internet located at: [1mpseven.github.io/RAMDiskMounter/](https://github.com/1mpseven/RAMDiskMounter/blob/gh-pages/LICENSE.md)
 
 2. License to use the software
 
@@ -48,13 +48,13 @@ e) The User undertakes to remove, change, transfer the Product upon a request fr
 
 1.1. Используемые в настоящем Лицензионном соглашении слова и выражения имеют следующие значения, если иное прямо не определено далее по тексту:
 
-а) Лицензия (Соглашение) — текст настоящего документа со всеми приложениями, изменениями и дополнениями к нему, размещенный в составе дистрибутива Продукта и на Сайте Правообладателя в сети Интернет по адресу: 1mpseven.github.io/RAMDiskMounter/LICENSE.md.
+а) Лицензия (Соглашение) — текст настоящего документа со всеми приложениями, изменениями и дополнениями к нему, размещенный в составе дистрибутива Продукта и на Сайте Правообладателя в сети Интернет по адресу: [https://github.com/1mpseven/RAMDiskMounter/blob/gh-pages/LICENSE.md](https://github.com/1mpseven/RAMDiskMounter/blob/gh-pages/LICENSE.md).
 
 б) Пользователь — лицо, заключившее настоящее Соглашение с Правообладателем в своем или чужом интересе в соответствии с требованиями действующего законодательства и настоящего Соглашения.
 
 в) Продукт — принадлежащие Правообладателю программа "RAMDiskMounter", экземпляр которого правомерно находится у Конечного пользователя.
 
-г) Сайт Продукта — ресурс в сети интернет, расположенный по адресу: 1mpseven.github.io/RAMDiskMounter/
+г) Сайт Продукта — ресурс в сети интернет, расположенный по адресу: [1mpseven.github.io/RAMDiskMounter/](https://github.com/1mpseven/RAMDiskMounter/blob/gh-pages/LICENSE.md)
 
 2. Лицензия на использование программного обеспечения
 
