@@ -12,7 +12,7 @@ b) User - a person who has entered into this Agreement with the Copyright Holder
 
 c) Product - the program "RAMDiskMounter" owned by the Copyright Holder, a copy of which is legally held by the End User.
 
-d) Product Website - a resource on the Internet located at: [1mpseven.github.io/RAMDiskMounter/](https://github.com/1mpseven/RAMDiskMounter/blob/gh-pages/LICENSE.md)
+d) Product Website - a resource on the Internet located at: [1mpseven.github.io/RAMDiskMounter/](https://1mpseven.github.io/RAMDiskMounter/)
 
 2. License to use the software
 
@@ -54,7 +54,7 @@ e) The User undertakes to remove, change, transfer the Product upon a request fr
 
 в) Продукт — принадлежащие Правообладателю программа "RAMDiskMounter", экземпляр которого правомерно находится у Конечного пользователя.
 
-г) Сайт Продукта — ресурс в сети интернет, расположенный по адресу: [1mpseven.github.io/RAMDiskMounter/](https://github.com/1mpseven/RAMDiskMounter/blob/gh-pages/LICENSE.md)
+г) Сайт Продукта — ресурс в сети интернет, расположенный по адресу: [1mpseven.github.io/RAMDiskMounter/](https://1mpseven.github.io/RAMDiskMounter/)
 
 2. Лицензия на использование программного обеспечения
 
